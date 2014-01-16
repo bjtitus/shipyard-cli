@@ -10,12 +10,14 @@ Note: This is under active development and is currently very limited in function
 # Usage
 
 When you first run (and any time you want to change endpoints) you will need to
-run shipyard as follows:
+log in to shipyard as follows:
 
-`./shipyard --username <shipyard-username> --key <shipyard-api-key> --url <shipyard-url>`
-
-You can also specify and optional `--api-version` option for a specify version
-of the Shipyard API.
+`./shipyard login`
+Enter:
+URL
+Username
+Password
+API Version
 
 Once you run as above, Shipyard will cache the credentials in `$HOME/.shipyard.cfg`.
 You can then run the Shipyard CLI without passing creds each time.
